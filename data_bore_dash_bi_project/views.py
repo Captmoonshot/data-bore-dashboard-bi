@@ -6,5 +6,5 @@ def home(request):
 
 	}
 	template_name = "home.html"
-	return render(request, context, template_name)
+	return render(request, template_name, context)
 
